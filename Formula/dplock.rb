@@ -1,23 +1,23 @@
 class Dplock < Formula
   desc "Simple, secure CLI password manager written in Rust"
   homepage "https://github.com/dpway0/dplock"
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-macos-arm64.tar.gz"
-      sha256 "70d357efc7cd6aaad439f79b64e178806e1c68af5b952704ada1e4c466652690"
+      url "https://github.com/dpway0/dplock/releases/download/v0.4.1/dplock-0.4.1-macos-arm64.tar.gz"
+      sha256 "9be9663163c730734e88629dad25a75233945656b14ffb7cce1250b817d229bc"
     end
 
     if Hardware::CPU.intel?
-      url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-macos-x86_64.tar.gz"
-      sha256 "0242367b7a389db98467daab1232c66073e3c89cf1e4db8cee4bad2f392e77f3"
+      url "https://github.com/dpway0/dplock/releases/download/v0.4.1/dplock-0.4.1-macos-x86_64.tar.gz"
+      sha256 "ea161acb55e2219ba245d3ad3aaa8bbae4c88a64ecd921623387b8991f90ed98"
     end
   end
 
   on_linux do
-    url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-linux-x86_64.tar.gz"
-    sha256 "63c22b72295bdd98322d04b78597432799c0aafb90b39d9e77b19047cd5b882c"
+    url "https://github.com/dpway0/dplock/releases/download/v0.4.1/dplock-0.4.1-linux-x86_64.tar.gz"
+    sha256 "8c028d33873b947bbc6784edd3bb72d809abe1762509bfefc51089a14d5866dd"
   end
 
   def install
