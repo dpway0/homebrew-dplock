@@ -11,7 +11,7 @@ class Dplock < Formula
 
     if Hardware::CPU.intel?
       url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-macos-x86_64.tar.gz"
-      sha256 "4ecbf4fb425bd59a0a7788e1be36939c0b9546f2a1fa2554fb3b32b27df36058"
+      sha256 "0242367b7a389db98467daab1232c66073e3c89cf1e4db8cee4bad2f392e77f3"
     end
   end
 
