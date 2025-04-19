@@ -6,18 +6,18 @@ class Dplock < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-macos-arm64.tar.gz"
-      sha256 "0afd336936bb417851570eb4f51fc90926a4bc9f21a7cb1526daa86f25e4eb16"
+      sha256 "6d833ee16f290c1b88d5a27f7195aa038513ca6a6ca0766517c1397ddf5806f3"
     end
 
     if Hardware::CPU.intel?
       url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-macos-x86_64.tar.gz"
-      sha256 "5f1fccdfd910b1b483fcc1db8473d9317246d53a8972b73e901d21f612d3a28e"
+      sha256 "4ecbf4fb425bd59a0a7788e1be36939c0b9546f2a1fa2554fb3b32b27df36058"
     end
   end
 
   on_linux do
     url "https://github.com/dpway0/dplock/releases/download/v0.4.0/dplock-0.4.0-linux-x86_64.tar.gz"
-    sha256 "4fa0b8d999ca2159caa56563d32e932e19f2511b7b07c755a38967fb3345f08d"
+    sha256 "ebdf78cc0036cbfb1af61126983e3058281b3b94c3b9b4c00d1144d6b2f0ec0b"
   end
 
   def install
